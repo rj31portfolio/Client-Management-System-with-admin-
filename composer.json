@@ -1,0 +1,14 @@
+{
+  "name": "yourname/client-management-system",
+  "description": "A simple client management system",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "razorpay/razorpay": "^2.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "client/"
+    }
+  }
+}
